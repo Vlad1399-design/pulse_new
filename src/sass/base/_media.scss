@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+           font-size: 40px; 
+           margin-left: -14px;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        &__wrapper {
+            align-items: center;
+            margin-top: 50px;
+        }
+        header {
+            justify-content: space-around;
+        }
+    }
+    .advantages{
+       .container{
+            max-width: 870px;
+       }
+    }
+}
+@media (max-width:767px) {
+    .advantages {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+     }
+}
+        
